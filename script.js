@@ -4552,14 +4552,14 @@ async function loadGithubRepos(silent = false) {
     repoStatus.textContent = '저장소를 불러오는 중...';
   }
   try {
-    const response = await fetch('https://api.github.com/users/etashi04/repos?sort=updated&direction=desc&per_page=100', {headers:{Accept:'application/vnd.github+json'}});
-    if (!response.ok) throw new Error('GitHub 응답 오류');
+    const response = await fetch('github-kr-list.json', {cache:'no-store'});
+    if (!response.ok) throw new Error('KR List 응답 오류');
     const repos = (await response.json())
       .filter((repo) => !repo.fork && !repo.archived)
       .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
     const releaseStates = new Map(repos.flatMap((repo) => {
       const cached = releaseStateCache.get(repo.full_name);
-      return cached ? [[repo.name, cached.hasRelease]] : [];
+      return [[repo.name, cached?.hasRelease ?? Boolean(repo.has_release)]];
     }));
     repoList.replaceChildren(...repos.map((repo) => {
       const project = localizationProjects[repo.name] || {
@@ -4630,7 +4630,7 @@ async function loadGithubRepos(silent = false) {
     const checkedReleaseStates = new Map(await Promise.all(repos.map(async (repo) => {
       const cached = releaseStateCache.get(repo.full_name);
       if (cached && Date.now() - cached.checkedAt < 300000) return [repo.name, cached.hasRelease];
-      let hasRelease = false;
+      let hasRelease = Boolean(repo.has_release);
       try {
         const releaseResponse = await fetch(`https://api.github.com/repos/${repo.full_name}/releases/latest`, {headers:{Accept:'application/vnd.github+json'}});
         hasRelease = releaseResponse.ok;

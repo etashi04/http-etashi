@@ -9,4 +9,4 @@
 - GitHub의 **Actions → Sync Steam curator reviews → Run workflow**에서 즉시 수동 실행할 수도 있습니다.
 - 저장소의 Actions 권한에서 쓰기가 막힌 경우 **Settings → Actions → General → Workflow permissions → Read and write permissions**를 선택해야 합니다.
 
-한글화 앱의 GitHub 목록은 앱을 열 때 GitHub 공개 저장소를 직접 확인합니다. 새 공개 저장소가 생기면 별도 목록 편집 없이 제목, 설명, 미리보기와 함께 자동 추가됩니다.
+한글화 앱에는 GitHub의 공개 `💾 KR List`에 지정한 저장소만 표시됩니다. `.github/workflows/sync-github-kr-list.yml`이 6시간마다 리스트 변경을 확인합니다.

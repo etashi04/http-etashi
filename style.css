@@ -437,7 +437,7 @@ h1 { margin: 0; font-size: clamp(20px, 2.55vw, 39px); line-height: 1.08; letter-
 .review-document.is-open { opacity: 1; visibility: visible; pointer-events: auto; transform: translateX(0); transition-delay: 0s; }
 .review-document-header { min-height: 75px; display: grid; grid-template-columns: minmax(270px,1fr) auto auto auto; align-items: center; gap: 16px; padding: 0 20px 0 0; border-bottom: 1px solid rgba(255,255,255,.11); background: linear-gradient(135deg,rgba(45,93,142,.28),transparent 65%); }
 .review-document-visual { position: relative; align-self: stretch; width: min(100%,436px); height: 75px; display: grid; grid-template-columns: 200px minmax(0,1fr); align-items: center; overflow: visible; }
-.review-document-cover-link { display: block; width: 100%; height: 100%; overflow: hidden; border-radius: 0; background: transparent; }
+.review-document-cover-link { display: block; width: fit-content; max-width: 100%; height: 100%; overflow: hidden; border-radius: 0; background: transparent; }
 .review-document-cover-link img { display: block; width: auto; max-width: none; height: 100%; object-fit: contain; object-position: left center; transition: opacity .18s ease; }
 .review-document-cover-link:hover,.review-document-cover-link:focus-visible { outline: 2px solid rgba(102,192,244,.65); outline-offset: 2px; }
 .review-document-title { position: relative; z-index: 2; min-width: 0; max-width: 100%; overflow: hidden; display: -webkit-box; padding-left: 12px; color: #fff; font-family: "Segoe UI","Malgun Gothic",sans-serif; font-size: 21px; font-weight: 800; line-height: 1.08; letter-spacing: -.04em; overflow-wrap: anywhere; text-shadow: 0 1px 4px rgba(0,0,0,.9); -webkit-box-orient: vertical; -webkit-line-clamp: 2; }

@@ -1,5 +1,20 @@
 [
   {
+    "id": "4671680",
+    "title": "Left Not Right",
+    "score": 2,
+    "verdict": "추천",
+    "quote": "두 뇌 전부 살려만다오",
+    "date": "2026.08.31",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4671680/a290c57f169ea680f56e247f5423a4aa55595b85/header_292x136.jpg?t=1787492316",
+    "tags": [
+      "인디",
+      "초고난도",
+      "의도적으로 불편한 컨트롤"
+    ],
+    "fullReview": "왼손으로는 왼쪽이 캐릭터를, 오른손으로는 오른쪽이 캐릭터를 양 손으로 동시에 조작해\n주어진 시간 안에 여러 함정과 장애물을 피해 목표 발판을 밟아야 하는 고난이도 캐주얼 게임이다.\n시야를 번갈아 움직이며 두 캐릭터를 동시에 조작해야 해서 플레이 자체만해도 상당히 어려운 편이며,\n스테이지가 진행될수록 멈춰있으면 기절하거나, 제한 시간 내 지정된 방향키를 누르지 못하면 기절하는 등\n특수한 방해 기믹이 하나씩 추가되어 짧은 시간 안에 진행해야 하는 와중에 이를 파훼하느라 다소 짜증이 난다.\n혼자서 두 캐릭터를 동시에 조작하는 콘셉트는 참신했지만, 보통 난이도에서도 클리어가 너무 버거웠던 느낌이다."
+  },
+  {
     "id": "4650950",
     "title": "COCORO",
     "score": 5,
@@ -771,7 +786,7 @@
     "verdict": "추천",
     "quote": "무대위의 광인처럼 휘저어라",
     "date": "2026.05.06",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3404260/65e767ae355c2907439600595893d2176893deb9/header_292x136_alt_assets_1.jpg?t=1785773022",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3404260/ae0f4b71735adf4f2494ecb7914fcbafee215277/header_292x136.jpg?t=1785773022",
     "tags": [
       "앞서 해보기",
       "리듬",

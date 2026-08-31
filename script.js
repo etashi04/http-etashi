@@ -1485,7 +1485,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "화면 안에 그녀도 공부하고 있다고",
     "date": "2025.12.20",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/2c7a564c618bbfb933436be119f0f8cb040bae4b/header_292x136.jpg?t=1786685408",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/2c7a564c618bbfb933436be119f0f8cb040bae4b/header_292x136.jpg?t=1788166347",
     "tags": [
       "릴랙싱",
       "캐주얼",

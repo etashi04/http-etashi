@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#252629">
+  <meta name="description" content="폴더블 폰 콘셉트의 개인 프로필과 웹 도구 모음">
+  <title>My Pocket Desk</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('pocket-theme');
+      document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    } catch (error) {}
+  </script>
+  <link rel="preload" href="assets/steam.ico" as="image">
+  <link rel="preload" href="assets/github.ico" as="image">
+  <link rel="preload" href="assets/artwork-icon-clean.png" as="image">
+  <link rel="preload" href="assets/steam-3308870.jpg" as="image">
+  <link rel="preload" href="assets/glow-box-header.jpg" as="image">
+  <link rel="preload" href="assets/platonica-space-header.jpg" as="image">
+  <link rel="preload" href="assets/artwork-navy-geometry-portrait.png" as="image">
+  <link rel="stylesheet" href="style.css?v=381">
+</head>
+<body>
+  <main class="desk">
+    <div class="scene" aria-label="폴더블 폰 모양의 앱 화면">
+      <aside class="profile-card" id="profileCard" tabindex="0" aria-expanded="false" aria-label="프로필 카드 열기">
+        <div class="profile-photo">
+          <img src="assets/etashi-profile.png" alt="ETASHI 프로필 이미지">
+        </div>
+        <div class="profile-copy">
+          <p class="eyebrow">PROFILE CARD</p>
+          <h2>ETASHI</h2>
+          <p class="profile-role">3D Modeler · Designer</p>
+          <a class="profile-email" href="mailto:etashii04@gmail.com">etashii04@gmail.com</a>
+          <div class="profile-links" aria-label="프로필 링크">
+            <a href="https://github.com/etashi04" target="_blank" rel="noopener noreferrer" aria-label="ETASHI GitHub"><img src="assets/github.ico" alt=""></a>
+            <a href="https://x.com/etashi04" target="_blank" rel="noopener noreferrer" aria-label="ETASHI X 프로필"><img src="assets/x.ico" alt=""></a>
+            <a href="https://steamcommunity.com/id/etashi04/" target="_blank" rel="noopener noreferrer" aria-label="ETASHI Steam 프로필"><img src="assets/steam.ico" alt=""></a>
+          </div>
+        </div>
+        <span class="card-hint" aria-hidden="true">PROFILE</span>
+      </aside>
+
+      <section class="phone" aria-label="내 앱 모음">
+        <div class="phone-body">
+          <div class="screen">
+            <span class="hinge-line" aria-hidden="true"></span>
+            <button class="punch-hole" id="cameraEasterEgg" type="button" aria-expanded="false" aria-controls="cameraBubble" aria-label="내부 카메라 정보 보기"></button>
+            <aside class="camera-bubble" id="cameraBubble" aria-hidden="true">
+              <strong>고성능 내부 카메라</strong>
+              <p>본 광학 입력 장치는 가상의 초미세 광자 수집 배열과 다단계 계산사진학 파이프라인을 채택하여, 입사광의 공간 주파수 성분을 과도할 정도로 성실하게 표본화합니다. 픽셀 단위 신호는 의미심장한 이름의 융합 알고리즘을 거쳐 재구성되며, 결과적으로 화상 회의 중 사용자의 표정이 필요 이상으로 명료하게 전달됩니다.</p>
+              <small>※ 실제 촬영 기능은 없습니다. 설명만 고성능입니다.</small>
+            </aside>
+
+            <header class="screen-header">
+              <div>
+                <p class="screen-kicker">ETASHI'S POCKET</p>
+                <h1>For GAME, Only</h1>
+              </div>
+              <div class="status-area" aria-label="현재 상태">
+                <button id="clockButton" class="clock-button" type="button" aria-label="현재 시간, 12시간 표기로 변경">
+                  <time id="clock" class="clock">00:00</time>
+                </button>
+                <span class="network-status" id="networkStatus" aria-live="polite">
+                  <span class="network-icon" aria-hidden="true">⌁</span>
+                  <span id="networkLabel">확인 중</span>
+                </span>
+              </div>
+            </header>
+
+            <div class="app-scroll" aria-label="앱 목록">
+              <div class="app-grid" aria-label="앱 3개">
+                <div class="app-shell"><button class="app app-coral" id="steamReviewsApp" type="button" aria-label="큐레이터 앱 열기">
+                  <span class="app-preview curator-preview" aria-hidden="true"><span>
+                    <img src="assets/steam-3308870.jpg" alt=""><img src="assets/steam-4644290.jpg" alt=""><img src="assets/steam-1859910.jpg" alt=""><img src="assets/steam-389730.jpg" alt="">
+                    <img src="assets/steam-739630.jpg" alt=""><img src="assets/steam-4605210.jpg" alt=""><img src="assets/steam-4240150.jpg" alt=""><img src="assets/steam-1478500.jpg" alt="">
+                    <img src="assets/steam-48000.jpg" alt=""><img src="assets/steam-4729160.jpg" alt=""><img src="assets/steam-2001760.jpg" alt=""><img src="assets/steam-2622000.jpg" alt="">
+                    <img src="assets/steam-4517370.jpg" alt=""><img src="assets/steam-4198660.jpg" alt=""><img src="assets/steam-4337440.jpg" alt=""><img src="assets/steam-1172450.jpg" alt="">
+                  </span></span>
+                  <span class="app-icon steam-app-icon"><img src="assets/steam.ico" alt="" width="64" height="64" loading="eager" decoding="sync"></span>
+                </button><span class="app-title">큐레이터</span></div>
+                <div class="app-shell"><button class="app app-blue" id="githubReposApp" type="button" aria-label="한글화 앱 열기">
+                  <span class="app-preview localization-preview" aria-hidden="true"><span><img src="assets/glow-box-header.jpg" alt=""><img src="assets/platonica-space-header.jpg" alt=""></span></span>
+                  <span class="app-icon korea-app-icon" aria-hidden="true"><span class="kr-text">KR</span></span>
+                </button><span class="app-title">한글화</span></div>
+                <div class="app-shell"><button class="app app-violet artwork-app" type="button" aria-label="작업물 앱">
+                  <span class="app-preview artwork-preview" aria-hidden="true"><span><img class="artwork-image" src="assets/artwork-navy-geometry-portrait.png" alt="" loading="eager" decoding="sync"></span></span>
+                  <span class="app-icon artwork-app-icon" aria-hidden="true"><img src="assets/artwork-icon-clean.png" alt="" width="64" height="64" loading="eager" decoding="sync"></span>
+                </button><span class="app-title">작업물</span></div>
+              </div>
+            </div>
+
+            <section class="steam-panel" id="steamPanel" aria-hidden="true" aria-label="에타시의 Steam 게임 기록장">
+              <header class="steam-panel-header">
+                <div class="steam-heading">
+                  <a href="https://store.steampowered.com/curator/43983573/" target="_blank" rel="noopener noreferrer" aria-label="Steam 큐레이터 페이지 열기"><img src="assets/steam.ico" alt="" width="38" height="38" decoding="sync"></a>
+                  <div>
+                    <p>STEAM CURATOR</p>
+                    <h2>에타시's 게임 기록장</h2>
+                  </div>
+                </div>
+                <button class="panel-close" id="steamPanelClose" type="button" aria-label="게임 기록장 닫기">×</button>
+              </header>
+
+              <div class="steam-panel-body">
+                <div class="review-toolbar">
+                  <nav class="score-index" id="scoreIndex" aria-label="게임 평가 필터">
+                    <span class="filter-group filter-group-primary">
+                      <button class="is-active filter-recent" type="button" data-filter="recent">기본</button>
+                      <button class="filter-recommended" type="button" data-filter="recommended">추천</button>
+                      <button class="filter-not-recommended" type="button" data-filter="not-recommended">비추천</button>
+                    </span>
+                    <span class="filter-group filter-group-scores">
+                      <button class="filter-score-5" type="button" data-filter="score-5" aria-label="5점"><span class="score-number" aria-hidden="true">5</span></button>
+                      <button class="filter-score-4" type="button" data-filter="score-4" aria-label="4점"><span class="score-number" aria-hidden="true">4</span></button>
+                      <button class="filter-score-3" type="button" data-filter="score-3" aria-label="3점"><span class="score-number" aria-hidden="true">3</span></button>
+                      <button class="filter-score-2" type="button" data-filter="score-2" aria-label="2점"><span class="score-number" aria-hidden="true">2</span></button>
+                      <button class="filter-score-1" type="button" data-filter="score-1" aria-label="1점"><span class="score-number" aria-hidden="true">1</span></button>
+                    </span>
+                  </nav>
+                  <div class="sort-controls" aria-label="게임 정렬 기준">
+                    <div class="sort-dropdown" data-sort-dropdown="sortKey">
+                      <button class="sort-trigger" type="button" aria-haspopup="true" aria-expanded="false"><span>게시순</span><i aria-hidden="true"></i></button>
+                      <div class="sort-menu" role="radiogroup" aria-label="정렬 항목" hidden>
+                        <button type="button" role="radio" aria-checked="true" data-value="date">게시순</button>
+                        <button type="button" role="radio" aria-checked="false" data-value="title">명칭순</button>
+                        <button type="button" role="radio" aria-checked="false" data-value="score">점수순</button>
+                      </div>
+                      <select id="sortKey" aria-hidden="true" tabindex="-1" hidden><option value="date">게시순</option><option value="title">명칭순</option><option value="score">점수순</option></select>
+                    </div>
+                    <div class="sort-dropdown" data-sort-dropdown="sortDirection">
+                      <button class="sort-trigger" type="button" aria-haspopup="true" aria-expanded="false"><span>내림차순</span><i aria-hidden="true"></i></button>
+                      <div class="sort-menu" role="radiogroup" aria-label="정렬 방향" hidden>
+                        <button type="button" role="radio" aria-checked="true" data-value="desc">내림차순</button>
+                        <button type="button" role="radio" aria-checked="false" data-value="asc">오름차순</button>
+                      </div>
+                      <select id="sortDirection" aria-hidden="true" tabindex="-1" hidden><option value="desc" selected>내림차순</option><option value="asc">오름차순</option></select>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-list" id="reviewList" aria-live="polite"></div>
+                <nav class="steam-actions" aria-label="Steam 외부 링크">
+                  <a href="https://store.steampowered.com/curator/43983573/" target="_blank" rel="noopener noreferrer">큐레이터 페이지 <span>↗</span></a>
+                  <a href="https://steamcommunity.com/id/etashi04/recommended/" target="_blank" rel="noopener noreferrer">전체 평가 보기 <span>↗</span></a>
+                </nav>
+              </div>
+              <article class="review-document" id="reviewDocument" aria-hidden="true" aria-label="게임 평가 전문">
+                <header class="review-document-header">
+                  <div class="review-document-visual">
+                    <a class="review-document-cover-link" id="reviewDocumentCoverLink" href="#" target="_blank" rel="noopener noreferrer" aria-label="Steam 상점 페이지 열기"><img id="reviewDocumentCover" src="" alt=""></a>
+                    <strong class="review-document-title" id="reviewDocumentTitle"></strong>
+                  </div>
+                  <strong class="review-document-score" id="reviewDocumentScore" aria-label="평점"></strong>
+                  <nav class="review-document-links" aria-label="게임 정보 바로가기">
+                    <a id="reviewSteamLink" href="#" target="_blank" rel="noopener noreferrer">스팀 페이지</a>
+                    <a id="reviewSiteLink" href="#" target="_blank" rel="noopener noreferrer">평가 사이트</a>
+                  </nav>
+                  <button class="panel-close review-document-close" id="reviewDocumentClose" type="button" aria-label="평가 전문 닫기">×</button>
+                </header>
+                <div class="review-document-body">
+                  <div class="review-document-content">
+                    <p class="review-document-quote" id="reviewDocumentQuote"></p>
+                    <p class="review-document-meta" id="reviewDocumentMeta"></p>
+                    <div class="review-document-text" id="reviewDocumentText"></div>
+                  </div>
+                </div>
+              </article>
+            </section>
+
+            <section class="github-panel" id="githubPanel" aria-hidden="true" aria-label="ETASHI GitHub 저장소">
+              <header class="github-panel-header">
+                <div class="github-heading">
+                  <a href="https://github.com/etashi04" target="_blank" rel="noopener noreferrer" aria-label="ETASHI GitHub 프로필 열기"><img src="assets/github.ico" alt="" width="38" height="38" decoding="sync"></a>
+                  <div><p>LOCALIZATION PROJECTS</p><h2>한글화 게임 목록</h2></div>
+                </div>
+                <button class="panel-close" id="githubPanelClose" type="button" aria-label="GitHub 저장소 닫기">×</button>
+              </header>
+              <div class="github-panel-body">
+                <div class="repo-status" id="repoStatus" role="status">저장소를 불러오는 중...</div>
+                <div class="repo-list" id="repoList"></div>
+                <a class="github-profile-link" href="https://github.com/etashi04" target="_blank" rel="noopener noreferrer">GitHub에서 작업물 모두 보기 <span aria-hidden="true">▶</span></a>
+              </div>
+            </section>
+
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="라이트 모드로 변경">
+              <span class="theme-icon" aria-hidden="true">☼</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <p class="interaction-note">왼쪽 카드를 살짝 건드려 보세요.</p>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js?v=375"></script>
+</body>
+</html>

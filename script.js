@@ -1047,7 +1047,7 @@ const fallbackSteamReviews = [
     "verdict": "비추천",
     "quote": "이해불가 뚝심으로 이중매력",
     "date": "2026.03.31",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header_292x136.jpg?t=1787909144",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3321460/236f3814be7a97d86831800691b6096d449222a8/header_292x136.jpg?t=1788226529",
     "tags": [
       "오픈 월드",
       "싱글 플레이어",
@@ -3345,7 +3345,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "등록금만 내면 나도 호그와트 학생?",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header_292x136.jpg?t=1778797474",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/a3cdc6f40d97df8ac993679c2dd1edeb5222421e/header_292x136.jpg?t=1788224492",
     "tags": [
       "마법",
       "오픈 월드",

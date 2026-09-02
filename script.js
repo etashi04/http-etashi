@@ -282,7 +282,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "눈요깃거리 많고 많은 파티",
     "date": "2026.08.04",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622000/bf2f2f5bd97e0f3be91209888d067a4858235db7/header_292x136.jpg?t=1785412352",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622000/bf2f2f5bd97e0f3be91209888d067a4858235db7/header_292x136.jpg?t=1788364864",
     "tags": [
       "선정적 콘텐츠",
       "애니메이션",

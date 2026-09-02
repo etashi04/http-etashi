@@ -67,14 +67,14 @@
     "releases_url": "https://api.github.com/repos/etashi04/PLATONICA-SPACE/releases{/id}",
     "deployments_url": "https://api.github.com/repos/etashi04/PLATONICA-SPACE/deployments",
     "created_at": "2026-08-28T10:40:25Z",
-    "updated_at": "2026-08-31T04:27:59Z",
-    "pushed_at": "2026-08-28T10:42:06Z",
+    "updated_at": "2026-09-02T11:30:52Z",
+    "pushed_at": "2026-09-02T11:25:16Z",
     "git_url": "git://github.com/etashi04/PLATONICA-SPACE.git",
     "ssh_url": "git@github.com:etashi04/PLATONICA-SPACE.git",
     "clone_url": "https://github.com/etashi04/PLATONICA-SPACE.git",
     "svn_url": "https://github.com/etashi04/PLATONICA-SPACE",
     "homepage": null,
-    "size": 3593,
+    "size": 4654,
     "stargazers_count": 1,
     "watchers_count": 1,
     "language": "C#",
@@ -104,7 +104,7 @@
     "temp_clone_token": null,
     "network_count": 0,
     "subscribers_count": 0,
-    "has_release": false
+    "has_release": true
   },
   {
     "id": 1350081292,

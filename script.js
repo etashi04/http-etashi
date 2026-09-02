@@ -69,7 +69,7 @@ const fallbackSteamReviews = [
     "id": "3846480",
     "title": "PLATONICA SPACE",
     "score": 2,
-    "verdict": "비추천",
+    "verdict": "추천",
     "quote": "기억 속 흐릿한 추진력",
     "date": "2026.09.02",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3846480/c4d6e6eb022ce7f0c292a440673f249fdde2d4aa/header_292x136.jpg?t=1787799952",
@@ -4201,7 +4201,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "블라비켄의 도살자인가? 아니면 리비아의 개트롤인가?",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/97cca1147b256f450331044255b1dbd2d57d609e/header_292x136_alt_assets_4.jpg?t=1787688132",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/97cca1147b256f450331044255b1dbd2d57d609e/header_292x136_alt_assets_4.jpg?t=1788333513",
     "tags": [
       "오픈 월드",
       "RPG",

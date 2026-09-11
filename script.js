@@ -87,7 +87,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "두 뇌 전부 살려만다오",
     "date": "2026.08.31",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4671680/a290c57f169ea680f56e247f5423a4aa55595b85/header_292x136.jpg?t=1787492316",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4671680/a290c57f169ea680f56e247f5423a4aa55595b85/header_292x136.jpg?t=1789097026",
     "tags": [
       "인디",
       "초고난도",

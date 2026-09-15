@@ -2700,7 +2700,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "엔트로피를 낮추기 위한 정리정돈",
     "date": "2024.03.28",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1135690/header_292x136.jpg?t=1773703120",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1135690/header_292x136.jpg?t=1789426289",
     "tags": [
       "릴랙싱",
       "귀여운",

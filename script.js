@@ -702,7 +702,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "삽 들고 엘피 때리지마셈(중요)",
     "date": "2026.05.24",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3784760/6a850c66e85ac195371695fd72ac24e5fd919423/header_292x136.jpg?t=1787515336",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3784760/6a850c66e85ac195371695fd72ac24e5fd919423/header_292x136.jpg?t=1789539741",
     "tags": [
       "퍼즐",
       "포인트 앤드 클릭",

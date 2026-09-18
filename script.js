@@ -342,7 +342,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "이번엔 꼬마 마법사인가",
     "date": "2026.07.26",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4337440/4cea93a1d0b30520ca211d127e0597ace17c22e7/header_292x136.jpg?t=1789406388",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4337440/4cea93a1d0b30520ca211d127e0597ace17c22e7/header_292x136.jpg?t=1789744031",
     "tags": [
       "아늑함",
       "릴랙싱",

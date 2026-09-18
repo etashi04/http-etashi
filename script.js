@@ -927,7 +927,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "잉크 퐁당 느와르슈터",
     "date": "2026.04.29",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header_292x136.jpg?t=1785890069",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/298ff2fc3f6a700d022b8d3ec58047f2b426be03/header_292x136.jpg?t=1789672242",
     "tags": [
       "1인칭 슈팅",
       "만화 같은",

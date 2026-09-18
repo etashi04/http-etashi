@@ -387,7 +387,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "죽기 직전까지 쳐다보고 공격해",
     "date": "2026.07.25",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/header_292x136.jpg?t=1786527756",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1845250/header_292x136.jpg?t=1789708829",
     "tags": [
       "초고난도",
       "픽셀 그래픽",

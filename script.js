@@ -66,6 +66,21 @@ const localizationProjects = {
 
 const fallbackSteamReviews = [
   {
+    "id": "4122860",
+    "title": "Z.A.T.O. // I Love the World and Everything In It",
+    "score": 3,
+    "verdict": "추천",
+    "quote": "쓰라릴 무채색 겸애",
+    "date": "2026.09.20",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4122860/793d96b99e4c7b841720fdbf7b87ddbf7c85fb56/header_292x136.jpg?t=1762815652",
+    "tags": [
+      "비주얼 노벨",
+      "철학적",
+      "미스터리"
+    ],
+    "fullReview": "폴란드에서 활동 중인 보컬로이드 프로듀서 Ferry(=Nopanamaman)가 개발한 무료 비주얼 노벨로,\n폐쇄된 도시 보르쿠파-5에서 실종된 문제아 이라 그라체프스카야를 쫒는 외톨이 아샤 슈비나의 이야기이다.\n아샤의 내면을 중심으로 한 서사와 수동적 존재에서 능동적 존재로 변화하는 흐름이 강한 인상을 남기며,\n사랑과 기억, 주체와 객체의 경계처럼 철학적 질문을 던지는 결말부는 해석의 여지를 넓히며 여운을 남긴다.\n그럼에도 상당히 난해한 문체와 초~중반부에 비해 갑작스레 몰아치는 후반부의 전개는 썩 마음에 들진 못했다."
+  },
+  {
     "id": "1811500",
     "title": "LOOPERS",
     "score": 4,
@@ -1950,7 +1965,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "믿음 하나로 구원을",
     "date": "2025.04.12",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1179080/b5d0111d78b7c3b304387de2c55dabff139c667f/header_292x136.jpg?t=1779953992",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1179080/b5d0111d78b7c3b304387de2c55dabff139c667f/header_292x136.jpg?t=1789896485",
     "tags": [
       "공포",
       "픽셀 그래픽",

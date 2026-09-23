@@ -837,7 +837,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "한 상에 차려진 경이로움",
     "date": "2026.05.15",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/header_292x136.jpg?t=1745363004",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/faffc0f560786e2f05104a8d2fac837c6969bf13/header_292x136.jpg?t=1790187113",
     "tags": [
       "싱글 플레이어",
       "플랫폼",
@@ -3795,7 +3795,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "(붸에에)",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header_292x136.jpg?t=1787678027",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/253230/header_292x136.jpg?t=1790173529",
     "tags": [
       "귀여운",
       "3D 플랫폼",

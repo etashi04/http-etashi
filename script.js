@@ -405,8 +405,8 @@ const fallbackSteamReviews = [
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1845250/header_292x136.jpg?t=1789708829",
     "tags": [
       "초고난도",
-      "픽셀 그래픽",
-      "보스 러시"
+      "보스 러시",
+      "픽셀 그래픽"
     ],
     "fullReview": "네 명의 대학 졸업생이 꾸린 팀에서 출발한 대만 인디 개발사 CupDog의 첫 작품으로,\n다크 판타지 세계관을 더해 오직 보스 러시 경험에 집중한 2D 소울라이크 장르의 게임이다.\n악한 마녀가 벌인 참극 이후, 왕국을 되찾기 위해 복수의 칼을 든 공주 루비의 이야기를 다룬다.\n\n일반적인 탑뷰 액션에 머무르지 않고 ‘집중’ 시스템을 통해 상황을 읽으며 다양한 패턴을 회피하고,\n쌓아둔 스택을 소모해 강력한 찌르기 공격을 이어가는 본작의 전투는 비교적 쉽고 준수한 편이다.\n보스를 처치할 때마다 거점으로 돌아와 중간중간 풀어내는 스토리는 담백하고 가벼운 느낌이다.\n\n1회차를 완료한 세이브를 선택하여 진엔딩을 비롯한 스토리와 추가 보스가 있는 2회차를 진행할 수 있다.\n이때부터는 *노히트*로 보스를 클리어해야 하는데, 사실상 강제에 가까운 방식이라 만족스럽지 않았다.\n스킬을 강화하고 부적을 장착해 조합을 꾸려볼 선택지도 존재하지만, 전투 양상이 크게 달라지지는 않는다."
   },
@@ -3240,7 +3240,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "고전, 그 칭송의 이유를 보충하다",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header_292x136.jpg?t=1780943994",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header_292x136.jpg?t=1790268281",
     "tags": [
       "1인칭 슈팅",
       "리메이크",

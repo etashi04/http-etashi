@@ -3645,7 +3645,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "가혹한 경이로움과 교차된 계보의 정점",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_292x136_alt_assets_3.jpg?t=1790188359",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/f0b19c231f86fa0e633ff88a1a63459443017728/header_292x136_alt_assets_3.jpg?t=1790290043",
     "tags": [
       "소울라이크",
       "오픈 월드",

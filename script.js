@@ -3240,7 +3240,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "고전, 그 칭송의 이유를 보충하다",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header_292x136.jpg?t=1790268281",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/362890/674b9a0e7b31996efd5032dc15e695dbf457d71d/header_292x136.jpg?t=1790377127",
     "tags": [
       "1인칭 슈팅",
       "리메이크",

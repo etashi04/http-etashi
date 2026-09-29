@@ -432,7 +432,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "괴상스런 마녀와 불가사의한 하루",
     "date": "2026.07.20",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3534790/555fe109b7ffc548bea016a60df6f9e642d78cd1/header_292x136.jpg?t=1786339316",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3534790/555fe109b7ffc548bea016a60df6f9e642d78cd1/header_292x136.jpg?t=1790690759",
     "tags": [
       "쌍방향 소설",
       "포인트 앤드 클릭",
@@ -912,7 +912,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "무대위의 광인처럼 휘저어라",
     "date": "2026.05.06",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3404260/ae0f4b71735adf4f2494ecb7914fcbafee215277/header_292x136.jpg?t=1790670351",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3404260/989f8ee93d2d32036fe7b5cf98d203cb2f057fee/header_292x136_alt_assets_0.jpg?t=1790698491",
     "tags": [
       "앞서 해보기",
       "리듬",
@@ -1485,7 +1485,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "클리셰를 클래식으로 찬가하는 여행길",
     "date": "2025.12.29",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/c85fc0782fba9d3c8c8b4989587c720c325ed9cf/header_292x136.jpg?t=1787182292",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/fb969539fb0373bd5ee07c767bf9dafa4afae5c3/header_292x136.jpg?t=1790713386",
     "tags": [
       "오픈 월드",
       "애니메이션",
@@ -3390,7 +3390,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "등록금만 내면 나도 호그와트 학생?",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header_292x136.jpg?t=1790097140",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header_292x136.jpg?t=1790708992",
     "tags": [
       "마법",
       "오픈 월드",
@@ -4231,7 +4231,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "블라비켄의 도살자인가? 아니면 리비아의 개트롤인가?",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790678872",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790693338",
     "tags": [
       "오픈 월드",
       "RPG",

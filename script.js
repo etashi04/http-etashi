@@ -316,7 +316,7 @@ const fallbackSteamReviews = [
     "tags": [
       "액션 RPG",
       "여주인공",
-      "싱글 플레이어"
+      "소울라이크"
     ],
     "fullReview": "닌텐도의 세컨드 파티로서 줄곧 포켓몬스터 시리즈를 개발해온 일본의 게임프리크의 신작으로,\n그 게임프리크가 오랜만에 닌텐도 외 플랫폼으로 발매해 화제를 모았던 액션 어드벤처 게임이다.\n부정이 뒤덮여 종말을 맞은 세계에서 윤회의 짐승을 막기 위해 모험을 떠나는 엠마와 쿠의 이야기를 그린다.\n\n공격과 회피, 패링을 중심으로 공방을 펼치며, 패링 성공으로 얻은 스택을 사용해 쿠의 스킬을 발동하거나\n평타 사이 혹은 납도 기술에서 이어지는 개화 스킬을 통해 꽃내음이 짙은 찬바라식 전투 액션을 즐길 수 있다.\nZ축 자유도가 상당히 높아 웬만한 고층 지대도 가볍게 탐험할 수 있어 세미 오픈월드를 누비는 재미도 있으며,\n전반적으로 <세키로: 섀도우 다이 트와이스>와 <니어: 오토마타>를 적절히 참고해 배합한 느낌을 준다.\n\n매 챕터가 지역 이동 → 보스 토벌 → 동료 커뮤 → 스토리 진행으로 엔딩 직전까지 동일하게 구성되어 있다.\n지역과 상관없이 반복 등장하는 잡몹, 패턴 가짓수가 적고 중반부부터 특이종이라며 재탕하는 보스들,\n1~2초 뒤에야 입을 여는 느릿한 캐릭터 애니메이션, 고유한 감동이 딱히 없는 스토리까지 갖추고 있다.\nBGM도 짧고 반복적이며, 보스전에서는 눈치채기도 힘들 정도로 음량이 작아 좋은 인상도 남지는 않았다.\n전투는 나름 괜찮았지만 그 외 요소들은 밋밋하고 답답하며 뚜렷한 개성도 부족했던 경험의 게임이었다."
   },
@@ -1680,7 +1680,7 @@ const fallbackSteamReviews = [
     "verdict": "비추천",
     "quote": "불안함을 반복하기만 하는 악몽",
     "date": "2025.10.23",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/7aba96b32736990ec8a131bfdf395d2dc35b282b/header_292x136.jpg?t=1790067028",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1392860/7aba96b32736990ec8a131bfdf395d2dc35b282b/header_292x136.jpg?t=1790769386",
     "tags": [
       "협동",
       "어드벤처",
@@ -4231,7 +4231,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "블라비켄의 도살자인가? 아니면 리비아의 개트롤인가?",
     "date": "2023.04.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790693338",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790769419",
     "tags": [
       "오픈 월드",
       "RPG",

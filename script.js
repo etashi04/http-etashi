@@ -417,7 +417,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "죽기 직전까지 쳐다보고 공격해",
     "date": "2026.07.25",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1845250/header_292x136.jpg?t=1789708829",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1845250/header_292x136.jpg?t=1790834428",
     "tags": [
       "초고난도",
       "보스 러시",
@@ -1680,7 +1680,7 @@ const fallbackSteamReviews = [
     "verdict": "비추천",
     "quote": "불안함을 반복하기만 하는 악몽",
     "date": "2025.10.23",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1392860/7aba96b32736990ec8a131bfdf395d2dc35b282b/header_292x136.jpg?t=1790769386",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1392860/0fd9c7cef7e84dbb6f6d3d3cfde32e247e1305a6/header_292x136_alt_assets_1.jpg?t=1790849221",
     "tags": [
       "협동",
       "어드벤처",
@@ -4231,7 +4231,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "블라비켄의 도살자인가? 아니면 리비아의 개트롤인가?",
     "date": "2023.04.19",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790769419",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790845156",
     "tags": [
       "오픈 월드",
       "RPG",

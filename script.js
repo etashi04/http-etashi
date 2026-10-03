@@ -552,7 +552,7 @@ const fallbackSteamReviews = [
     "verdict": "추천",
     "quote": "그 만남을 후회하지 않기를",
     "date": "2026.06.17",
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3946810/4db9cca2e8959723163aafced9de2439056c2bab/header_292x136.jpg?t=1790661217",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3946810/4db9cca2e8959723163aafced9de2439056c2bab/header_292x136.jpg?t=1791021124",
     "tags": [
       "애니메이션",
       "비주얼 노벨",
